@@ -8,7 +8,8 @@ public class Portal : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Application.LoadLevel(Application.loadedLevel);
+            //Application.LoadLevel(Application.loadedLevel);
+            
         }
     }
 

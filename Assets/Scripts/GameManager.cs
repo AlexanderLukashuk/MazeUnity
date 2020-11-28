@@ -24,10 +24,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (result == 6)
+        {
             portal.SetActive(true);
+        }
     }
 
-    public void PlayGame()
+    public void PlayAgain()
     {
         SceneManager.LoadScene("Game");
     }
