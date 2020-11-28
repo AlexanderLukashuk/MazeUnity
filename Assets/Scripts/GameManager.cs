@@ -26,4 +26,14 @@ public class GameManager : MonoBehaviour
         if (result == 6)
             portal.SetActive(true);
     }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
