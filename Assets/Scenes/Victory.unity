@@ -524,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 1160161521248124268, guid: 07c9ef672c4ab4c23a9750408a9d966f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1160161521248124268, guid: 07c9ef672c4ab4c23a9750408a9d966f,
         type: 3}
@@ -599,7 +599,7 @@ PrefabInstance:
     - target: {fileID: 1160161521248124269, guid: 07c9ef672c4ab4c23a9750408a9d966f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayAgain
+      value: PlayGame
       objectReference: {fileID: 0}
     - target: {fileID: 1160161521248124271, guid: 07c9ef672c4ab4c23a9750408a9d966f,
         type: 3}
@@ -812,8 +812,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1055043061}
-  - {fileID: 183960207}
   - {fileID: 1638302168}
+  - {fileID: 183960207}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

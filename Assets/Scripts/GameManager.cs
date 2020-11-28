@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void PlayAgain()
+    public void PlayGame()
     {
         SceneManager.LoadScene("Game");
     }

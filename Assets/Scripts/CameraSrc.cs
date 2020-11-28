@@ -8,7 +8,7 @@ public class CameraSrc : MonoBehaviour
     public Vector3 offset;
     void Start()
     {
-        offset = new Vector3(1, 1.5f, 0);
+        offset = new Vector3(1, 2.0f, 0);
     }
 
     void Update()
