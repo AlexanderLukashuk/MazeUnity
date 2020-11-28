@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public int result = 0;
     public GameObject portal;
     //public Text scoreText;
+    //public Text scoreText;
     
     public void AddCoin(int coin)
     {
@@ -18,12 +19,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        portal.SetActive(false);
+        //portal.SetActive(false);
     }
 
     void Update()
     {
-        if (result == 6)
+        if (result == 10)
         {
             portal.SetActive(true);
         }
